@@ -1,11 +1,14 @@
 // lib/ai/provider/openai_provider.dart
 
+// ignore_for_file: unused_field
+
 import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'ai_provider.dart';
 
 class OpenAIProvider implements AIProvider {
   final Dio _dio;
+
   final String _apiKey;
   final String _baseUrl;
 

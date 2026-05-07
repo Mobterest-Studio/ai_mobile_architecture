@@ -1,4 +1,4 @@
-// lib/ai/service/ai_service.dart
+ 
 
 import 'package:ai_api_layer_structure/ai/error/ai_exception.dart';
 import 'package:ai_api_layer_structure/ai/observer/ai_observer.dart';
@@ -9,7 +9,7 @@ abstract class AIService {
   Stream<AIResponseChunk> stream(AIRequest request);
 }
 
-// lib/ai/service/ai_service_impl.dart
+ 
 
 class AIServiceImpl implements AIService {
   final AIProvider _provider;

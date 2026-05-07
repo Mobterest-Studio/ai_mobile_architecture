@@ -1,5 +1,4 @@
-// lib/ai/observer/ai_observer.dart
-
+ 
 import 'package:ai_api_layer_structure/ai/error/ai_exception.dart';
 import 'package:ai_api_layer_structure/ai/provider/ai_provider.dart';
 
@@ -10,7 +9,7 @@ abstract class AIObserver {
 }
 
 // Concrete implementation — wire to your analytics/logging of choice
-class LoggingAIObserver implements AIObserver {
+class LoggingAIObserver implements AIObserver { 
   @override
   void onRequestStart(AIRequest request) {
     print('[AI] Request: ${request.model} | ${request.prompt.length} chars');

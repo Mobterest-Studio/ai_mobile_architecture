@@ -1,4 +1,3 @@
-// lib/ai/provider/ai_provider.dart
 
 import 'package:freezed_annotation/freezed_annotation.dart';
 part 'ai_provider.freezed.dart';
